@@ -15,7 +15,8 @@
 		"typecheck": "tsc --noEmit",
 		"lint:js": "eslint src --ext .js,.mjs,.ts,.mts --fix --ignore-path .gitignore",
 		"lint": "npm run typecheck && npm run lint:js",
-		"lint-staged": "lint-staged"
+		"lint-staged": "lint-staged",
+		"start": "tsx src/index.ts"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^18.2.0",
