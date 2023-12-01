@@ -25,7 +25,7 @@
 		"no-async-promise-executor": "error",
 		"no-compare-neg-zero": "error",
 		"no-cond-assign": ["error", "always"],
-		"no-console": ["warn", { "allow": ["warn", "error"] }],
+		"no-console": ["off"],
 		"no-constant-binary-expression": "error",
 		"no-constant-condition": "error",
 		"no-control-regex": "error",
