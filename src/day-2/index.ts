@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/prefer-regexp-exec */
-
 import { readFile } from 'node:fs/promises';
 
 const filePath = new URL('./input.txt', import.meta.url);
